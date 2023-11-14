@@ -1,3 +1,7 @@
+
+/* Inside your CSS file */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* UserProfile.css */
+
+.user-profile {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.projects-list {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+
+
+
+
+body{margin-top:20px;}
+.icons-list{
+    list-style-type: none;    
+}    
+
+
+
+
+
+
+
+
+
+
+
+li strong {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+}
+.pr-list li{
+  margin-bottom: 20px;
+  border-bottom: 1px solid green;
+  &:first-child{
+    border: none;
+  }
+
+}
+.pr-list li:first-child{
+
+    border: none;
+  
+
+}
+
+
+.user-image {
+  position: fixed;
+  top: 10px;
+  right: 100px;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Adjust the background color as needed */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
